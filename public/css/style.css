@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #858aa1 0%, #dddddd 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.8) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    background: rgba(255,255,255,0.95);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+}
+
+.btn-whatsapp {
+    background: linear-gradient(45deg, #25d366, #128c7e);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-whatsapp:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+}
+
+footer {
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    margin-top: 50px;
+}
+
+#search-input {
+    border-radius: 25px;
+    border: 2px solid rgba(255,255,255,0.2);
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: rgba(255,255,255,0.9);
+    transition: all 0.3s;
+}
+
+#search-input:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.3);
+    background: #fff;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.flavors-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 500;
+    text-align: left;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flavors-list li {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+    .carousel-item img {
+        height: 200px;
+    }
+}

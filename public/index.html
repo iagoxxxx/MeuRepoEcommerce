@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pods Premium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-fire"></i> PODSHUB®</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#products">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h1 class="text-center mb-4"><i class="fas fa-fire"></i> PODSHUB®</h1>
+        <div class="mb-4">
+            <input type="text" id="search-input" class="form-control" placeholder="Buscar produtos...">
+        </div>
+        <div id="promo-banners" class="mb-4">
+            <div id="banners-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" id="carousel-inner"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#banners-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#banners-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div id="products" class="row g-4"></div>
+    </div>
+
+    <div id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contato</h2>
+        <p class="text-center">Entre em contato conosco via WhatsApp para dúvidas ou pedidos.</p>
+        <div class="text-center">
+            <a href="https://wa.me/5519984570405" target="_blank" class="btn btn-success btn-lg">
+                <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 PODSHUB®.</p>
+            <p>Contato: <a href="https://wa.me/5519984570405" class="text-white"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

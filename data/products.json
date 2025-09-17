@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1758149125772,
+    "name": "IGNITE V300",
+    "price": "R$135,00",
+    "image": "https://example.com/v300.jpg",
+    "whatsapp": "https://wa.me/5519984570405",
+    "groupLink": "https://chat.whatsapp.com/HPpMVWS7b8fHA4uMFdRqwd",
+    "brand": "IGNITE",
+    "description": "Sabores deliciosos para você!",
+    "flavors": [
+      "Pineapple Ice",
+      "Strawberry Banana",
+      "Banana Coconut Water",
+      "Blueberry Strawberry Coconut"
+    ]
+  },
+  {
+    "id": 1758150168744,
+    "name": "v 80 ",
+    "price": "100",
+    "image": "https://vapegunuy.com/wp-content/uploads/2024/01/ignite-v80-3.webp",
+    "whatsapp": "19984570405",
+    "groupLink": "",
+    "brand": "IGNITE"
+  },
+  {
+    "id": 1758150332704,
+    "name": "v300",
+    "price": "140",
+    "image": "https://th.bing.com/th/id/R.952b169bda922f454c52e59d82bdef3c?rik=Q%2fHu4hFKB3h9%2fg&riu=http%3a%2f%2ftabakkatabacaria.com%2fwp-content%2fuploads%2f2025%2f05%2fWhatsApp-Image-2025-05-30-at-16.28.10.jpeg&ehk=PNZq%2fr5nYj%2b7PdJj4CL7677s%2bSwc7dsDrL823iWuzFE%3d&risl=&pid=ImgRaw&r=0",
+    "whatsapp": "19984570405",
+    "groupLink": "https://chat.whatsapp.com/HPpMVWS7b8fHA4uMFdRqwd?mode=ems_copy_t",
+    "brand": "IGNITE"
+  }
+]
